@@ -1,0 +1,21 @@
+# CAD exchange files and meshes
+# assets/** filter=lfs diff=lfs merge=lfs -text
+# Keep spec markdown in normal git so reviews and diffs stay readable.
+assets/**/*.md text
+# *.step filter=lfs diff=lfs merge=lfs -text
+# *.stp filter=lfs diff=lfs merge=lfs -text
+# *.stl filter=lfs diff=lfs merge=lfs -text
+# *.3mf filter=lfs diff=lfs merge=lfs -text
+# *.dxf filter=lfs diff=lfs merge=lfs -text
+# *.glb filter=lfs diff=lfs merge=lfs -text
+# *.gltf filter=lfs diff=lfs merge=lfs -text
+# *.obj filter=lfs diff=lfs merge=lfs -text
+# *.ply filter=lfs diff=lfs merge=lfs -text
+# *.mp4 filter=lfs diff=lfs merge=lfs -text
+# Hero showcase assets deploy to Vercel as plain static files: never LFS.
+apps/docs/public/hero/** -text
+# Tiny plain-text STEP used by the viewer launch smoke's end-to-end import
+models/examples/imported/import-smoke.step text
+
+# models/ export-ignore
+
