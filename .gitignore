@@ -29,6 +29,7 @@ coverage
 *.tmp
 *.swp
 submission/
+current_solution.step
 *.step.glb.lock
 *.stp.glb.lock
 tmp/
