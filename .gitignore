@@ -28,6 +28,7 @@ coverage
 # Temporary files and scratch notes
 *.tmp
 *.swp
+submission/
 *.step.glb.lock
 *.stp.glb.lock
 tmp/
