@@ -219,6 +219,7 @@ export default defineConfig(async ({ command }) => ({
       "three": path.join(viewerNodeModulesRoot, "three"),
       "three/examples": path.join(viewerNodeModulesRoot, "three", "examples"),
       "three-mesh-bvh": path.join(viewerNodeModulesRoot, "three-mesh-bvh"),
+      "meshoptimizer/decoder": path.join(viewerNodeModulesRoot, "meshoptimizer", "meshopt_decoder.mjs"),
       "meshoptimizer": path.join(viewerNodeModulesRoot, "meshoptimizer"),
     },
   },
